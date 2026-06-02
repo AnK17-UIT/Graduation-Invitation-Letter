@@ -106,3 +106,10 @@ body { overflow-x: hidden; }
 }
 .memory-back::before { top: 10px; left: 10px; border-right: none; border-bottom: none; }
 .memory-back::after { bottom: 10px; right: 10px; border-left: none; border-top: none; }
+
+/* ==================== HERO IMAGE FADE EFFECT ==================== */
+.hero-image-mask {
+    /* Tạo hiệu ứng rõ ở trên, mờ dần từ đoạn 65% trở xuống đáy */
+    -webkit-mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+}

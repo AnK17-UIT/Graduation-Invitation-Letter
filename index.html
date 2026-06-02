@@ -76,19 +76,23 @@
         <!-- Katana Slash Effect -->
         <div class="slash-line" id="slash-effect"></div>
 
-        <!-- Step 3 Photo -->
-        <div id="step-4-photo" class="absolute z-30 flex flex-col items-center justify-center opacity-0 scale-110 filter blur-lg transition-all-slow pointer-events-none mt-10 md:mt-0">
-            <!-- Thay link ảnh của bạn vào đây -->
-            <img src="https://images.unsplash.com/photo-1523580494112-071d4581a59c?q=80&w=1000&auto=format&fit=crop" 
-                 alt="Gia An" 
-                 class="w-[280px] h-[380px] md:w-[400px] md:h-[550px] object-cover rounded-xl shadow-[0_0_50px_rgba(255,26,51,0.4)] border border-gray-700">
+        <!-- Step 3 Photo (Đã bỏ khung vuông, thêm mask mờ chân) -->
+        <div id="step-4-photo" class="absolute z-30 flex flex-col items-center justify-center opacity-0 scale-110 filter blur-lg transition-all-slow pointer-events-none w-full h-full">
             
-            <div class="mt-6 text-center opacity-0 transition-opacity duration-1000" id="photo-caption">
-                <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-widest text-white">Nguyễn Hoàng Gia An</h3>
-                <p class="text-katana font-mono tracking-[0.1em] uppercase text-sm md:text-base mt-2 flex items-center justify-center gap-2">
-                    <span class="w-8 h-[1px] bg-katana"></span>
+            <!-- ẢNH: Bỏ border, bỏ rounded. Thêm class hero-image-mask và drop-shadow (đổ bóng theo hình người) -->
+            <img src="./ZAEN.png" 
+                 alt="Gia An" 
+                 class="hero-image-mask drop-shadow-[0_0_30px_rgba(255,26,51,0.6)] w-[320px] md:w-[450px] lg:w-[550px] h-auto object-contain">
+            
+            <!-- TEXT: Dùng âm margin (-mt-12) để kéo chữ nhích lên, đè nhẹ vào phần đang mờ của chân -->
+            <div class="-mt-12 md:-mt-16 text-center opacity-0 transition-opacity duration-1000 z-40" id="photo-caption">
+                <h3 class="text-3xl md:text-5xl font-black uppercase tracking-widest text-white text-glow">
+                    Nguyễn Hoàng Gia An
+                </h3>
+                <p class="text-katana font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase text-xs md:text-sm mt-3 flex items-center justify-center gap-3">
+                    <span class="w-12 h-[1px] bg-katana/70"></span>
                     Bachelor of Computer Science
-                    <span class="w-8 h-[1px] bg-katana"></span>
+                    <span class="w-12 h-[1px] bg-katana/70"></span>
                 </p>
             </div>
         </div>

@@ -1,0 +1,21 @@
+{
+    "guestName": "Anh chị em Hoa Cười",
+    "message": "Cảm ơn anh chị em Đòn Kho đã là một phần siêu đẹp trong hành trình đại học của em ... Em iu cả nhà mình lứm ạ <3",
+    "photos": [
+        {
+            "url": "./beautifulpeople/hoacuoi/HoaCuoi_1.jpg",
+            "date": "Tháng 11, 2022",
+            "note": "Hôm offline lần đầu em thấy mọi người ngoài đời hé hé. TP22 dui lém"
+        },
+        {
+            "url": "./beautifulpeople/hoacuoi/HoaCuoi_2.jpg",
+            "date": "Tháng 11, 2023",
+            "note": "Lần đầu em thật sự chạy Media cho Đòn Kho một cách nghiêm túc ..., sry vì cái Algos 2022 em chạy fail lòi ạ"
+        },
+        {
+            "url": "./beautifulpeople/hoacuoi/HoaCuoi_3.jpg",
+            "date": "Tháng 10, 2024",
+            "note": "Cái CS2 đầu tiên em được làm BTC ..."
+        }
+    ]
+}
