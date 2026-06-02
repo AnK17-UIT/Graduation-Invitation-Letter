@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia An's Graduation | UIT</title>
+    
+    <!-- Tích hợp Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Rock+Salt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- File CSS tùy chỉnh -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Cấu hình Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f111a',
+                        katana: '#ff1a33', 
+                        darkcard: 'rgba(20, 24, 36, 0.7)',
+                    },
+                    fontFamily: {
+                        brush: ['"Rock Salt"', 'cursive'],
+                        sans: ['Montserrat', 'sans-serif'],
+                        mono: ['"Share Tech Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased bg-darkbg text-white selection:bg-katana selection:text-white">
+
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="fixed top-0 left-0 w-full p-4 md:p-6 flex justify-between items-center z-50 bg-darkbg/80 backdrop-blur-md opacity-0 transition-opacity duration-1000 delay-500 border-b border-gray-800/50" id="navbar">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 bg-katana rounded-full flex items-center justify-center font-bold text-white shadow-[0_0_15px_#ff1a33]">GA</div>
+            <span class="font-bold tracking-widest text-sm uppercase hidden md:inline">Nguyễn Hoàng Gia An</span>
+        </div>
+        <nav class="hidden lg:flex gap-8 text-sm text-gray-400 font-medium tracking-wide">
+            <a href="#hero-section" class="hover:text-white hover:text-katana transition-colors">Home</a>
+            <a href="#gallery" class="hover:text-white hover:text-katana transition-colors">Memories</a>
+            <a href="#info-section" class="hover:text-white hover:text-katana transition-colors">Information</a>
+        </nav>
+        <a href="#info-section" class="btn-cyber bg-katana/10 border border-katana text-katana hover:bg-katana hover:text-white transition-all px-6 py-2 text-sm tracking-wider uppercase font-bold">
+            Save The Date
+        </a>
+    </header>
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden" id="hero-section">
+        <div class="bg-glow" id="red-glow"></div>
+
+        <!-- Step 1 Text -->
+        <div id="step-1-text" class="absolute z-10 w-full flex flex-col items-center justify-center opacity-0 scale-110 transition-all-slow blur-sm">
+            <h2 class="font-brush brush-text-bg uppercase transform -rotate-2">You are invited to</h2>
+        </div>
+
+        <!-- Step 2 Text -->
+        <div id="step-2-text" class="absolute z-20 flex flex-col items-center justify-center opacity-0 scale-90 transition-all-slow w-full px-4">
+            <h1 class="font-brush text-5xl md:text-7xl lg:text-8xl text-center text-white text-glow transform rotate-2 uppercase leading-tight">
+                Gia An's<br/>Graduation
+            </h1>
+            <p class="mt-8 tracking-[0.4em] md:tracking-[0.6em] text-gray-300 uppercase text-xs md:text-sm font-bold text-center">
+                University of Information Technology
+            </p>
+        </div>
+
+        <!-- Katana Slash Effect -->
+        <div class="slash-line" id="slash-effect"></div>
+
+        <!-- Step 3 Photo -->
+        <div id="step-4-photo" class="absolute z-30 flex flex-col items-center justify-center opacity-0 scale-110 filter blur-lg transition-all-slow pointer-events-none mt-10 md:mt-0">
+            <!-- Thay link ảnh của bạn vào đây -->
+            <img src="https://images.unsplash.com/photo-1523580494112-071d4581a59c?q=80&w=1000&auto=format&fit=crop" 
+                 alt="Gia An" 
+                 class="w-[280px] h-[380px] md:w-[400px] md:h-[550px] object-cover rounded-xl shadow-[0_0_50px_rgba(255,26,51,0.4)] border border-gray-700">
+            
+            <div class="mt-6 text-center opacity-0 transition-opacity duration-1000" id="photo-caption">
+                <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-widest text-white">Nguyễn Hoàng Gia An</h3>
+                <p class="text-katana font-mono tracking-[0.1em] uppercase text-sm md:text-base mt-2 flex items-center justify-center gap-2">
+                    <span class="w-8 h-[1px] bg-katana"></span>
+                    Bachelor of Computer Science
+                    <span class="w-8 h-[1px] bg-katana"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-6 md:left-10 flex gap-8 opacity-0 transition-opacity duration-1000 delay-1000" id="bottom-stats">
+        </div>
+
+        <!-- Tín hiệu vuốt xuống (Chỉ hiện khi animation xong) -->
+        <a href="#gallery" class="absolute bottom-10 right-6 md:right-10 opacity-0 transition-opacity duration-1000 delay-1000 animate-bounce cursor-pointer z-50" id="scroll-down">
+            <svg class="w-8 h-8 text-katana" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        </a>
+    </section>
+
+    <!-- ==================== 2. MEMORIES SECTION ==================== -->
+    <section class="w-full min-h-screen py-24 px-6 md:px-12 relative flex flex-col items-center" id="gallery">
+        <!-- Background Elements -->
+        <div class="absolute top-0 right-0 w-1/3 h-1/3 bg-katana rounded-full mix-blend-screen filter blur-[150px] opacity-10 pointer-events-none"></div>
+
+        <div class="text-center mb-16 reveal z-10 w-full max-w-4xl">
+            <p class="text-katana tracking-[0.3em] uppercase text-sm font-bold mb-2">Memory Lane</p>
+            <h2 class="font-brush text-4xl md:text-5xl text-white mb-6">Our Journey</h2>
+            
+            <!-- Khu vực lời chào (Render bằng JS) -->
+            <div id="personalized-greeting" class="glass-card p-6 rounded-lg inline-block text-center w-full md:w-auto min-w-[300px]">
+                <p class="text-gray-400 font-mono text-sm animate-pulse">Decrypting memory files...</p>
+            </div>
+        </div>
+
+        <!-- Lưới ảnh (Render bằng JS) -->
+        <div id="memories-grid" class="flex flex-wrap justify-center items-center gap-8 max-w-6xl w-full z-10 reveal"></div>
+    </section>
+
+    <!-- ==================== 3. INFORMATION & COUNTDOWN ==================== -->
+    <section class="w-full min-h-screen py-24 px-6 md:px-12 flex flex-col justify-center items-center relative" id="info-section">
+        <div class="absolute bottom-0 left-0 w-1/3 h-1/3 bg-blue-600 rounded-full mix-blend-screen filter blur-[150px] opacity-10 pointer-events-none"></div>
+
+        <div class="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center reveal z-10">
+            <!-- Details Card -->
+            <div class="glass-card p-8 md:p-12 rounded-lg">
+                <h2 class="font-brush text-3xl md:text-4xl text-white mb-8">The Details</h2>
+                <ul class="space-y-6">
+                    <li class="border-b border-gray-800 pb-4">
+                        <p class="text-xs text-katana uppercase tracking-widest mb-1 font-bold">Cử nhân</p>
+                        <p class="text-xl md:text-2xl font-bold">Nguyễn Hoàng Gia An</p>
+                        <p class="text-gray-400 text-sm mt-1">Khoa học Máy tính (Computer Science)</p>
+                    </li>
+                    <li class="border-b border-gray-800 pb-4">
+                        <p class="text-xs text-katana uppercase tracking-widest mb-1 font-bold">Thời gian</p>
+                        <p class="text-lg md:text-xl font-medium text-gray-200">Thứ Ba, Ngày 09 Tháng 06 Năm 2026</p>
+                        <p class="text-gray-400 text-sm mt-1">Buổi sáng (10g30 - 13g00)</p>
+                    </li>
+                    <li class="pb-2">
+                        <p class="text-xs text-katana uppercase tracking-widest mb-1 font-bold">Địa điểm</p>
+                        <p class="text-lg md:text-xl font-medium text-gray-200">Trường Đại học Công nghệ Thông tin</p>
+                        <p class="text-gray-400 text-sm mt-1 mb-4">Hàn Thuyên, Khu phố 6, P.Linh Trung, TP. Thủ Đức, TP.HCM</p>
+                        <a href="https://maps.app.goo.gl/P9srRxAeWmkmiFWW9" target="_blank" class="btn-cyber inline-block bg-white text-black hover:bg-katana hover:text-white transition-all px-6 py-3 text-xs tracking-widest uppercase font-bold">
+                            📍 View on Google Maps
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Countdown -->
+            <div class="flex flex-col justify-center items-center lg:items-end text-center lg:text-right">
+                <p class="text-katana tracking-[0.3em] uppercase text-sm font-bold mb-4">System Initializing...</p>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-black uppercase mb-10 text-white leading-tight">
+                    Countdown<br/>To Graduation
+                </h2>
+                <div class="grid grid-cols-4 gap-3 md:gap-6 w-full max-w-lg">
+                    <div class="time-box flex flex-col items-center justify-center p-4 rounded-lg">
+                        <span id="days" class="font-mono text-3xl md:text-5xl font-bold text-white text-glow">00</span>
+                        <span class="text-[10px] md:text-xs text-gray-400 uppercase tracking-widest mt-2">Days</span>
+                    </div>
+                    <div class="time-box flex flex-col items-center justify-center p-4 rounded-lg">
+                        <span id="hours" class="font-mono text-3xl md:text-5xl font-bold text-white">00</span>
+                        <span class="text-[10px] md:text-xs text-gray-400 uppercase tracking-widest mt-2">Hours</span>
+                    </div>
+                    <div class="time-box flex flex-col items-center justify-center p-4 rounded-lg">
+                        <span id="minutes" class="font-mono text-3xl md:text-5xl font-bold text-white">00</span>
+                        <span class="text-[10px] md:text-xs text-gray-400 uppercase tracking-widest mt-2">Mins</span>
+                    </div>
+                    <div class="time-box flex flex-col items-center justify-center p-4 rounded-lg">
+                        <span id="seconds" class="font-mono text-3xl md:text-5xl font-bold text-katana">00</span>
+                        <span class="text-[10px] md:text-xs text-gray-400 uppercase tracking-widest mt-2">Secs</span>
+                    </div>
+                </div>
+                <p class="mt-8 text-gray-500 text-sm font-mono border border-gray-700 px-4 py-2 rounded">
+                    Status: <span class="text-green-500 animate-pulse" id="status-text">Awaiting Deployment</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 4. CLOSING SECTION ==================== -->
+    <section class="w-full py-32 px-6 flex flex-col items-center justify-center relative overflow-hidden border-t border-gray-800/50" id="closing">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-katana rounded-full mix-blend-screen filter blur-[200px] opacity-10 pointer-events-none"></div>
+
+        <div class="text-center z-10 reveal max-w-2xl">
+            <h2 class="font-brush text-4xl md:text-6xl text-white mb-8">See You There!</h2>
+            <p class="text-gray-300 font-sans text-sm md:text-base leading-relaxed mb-10">
+                Hy vọng sẽ được gặp anh/chị/em/bạn tại lễ tốt nghiệp của anh/em/tui nheee!
+                <strong> Contact: Messenger hoặc SĐT: 0916917295 </strong>
+            </p>
+            <div class="mt-8">
+                <p class="font-mono text-katana tracking-[0.3em] uppercase text-xs mb-2">Thân mời,</p>
+                <p class="font-bold text-2xl text-white tracking-widest uppercase">Gia An</p>
+            </div>
+        </div>
+
+        <div class="mt-20 z-10 reveal">
+            <a href="#hero-section" class="group flex flex-col items-center gap-2 cursor-pointer">
+                <div class="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center group-hover:border-katana group-hover:bg-katana/10 transition-all duration-300">
+                    <svg class="w-6 h-6 text-gray-400 group-hover:text-katana transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+                    </svg>
+                </div>
+                <span class="font-mono text-[10px] uppercase tracking-widest text-gray-500 group-hover:text-white transition-colors duration-300">Back to top</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- File Javascript tùy chỉnh -->
+    <script src="main.js"></script>
+</body>
+</html>
