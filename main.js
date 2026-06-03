@@ -114,6 +114,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
             setTimeout(() => {
                 
+                // 1. Đổi tên trên Navbar
+                document.getElementById('navbar-guest-name').innerText = data.guestName;
+                
+                // 2. Đổi chữ viết tắt trong vòng tròn đỏ
+                // Logic: Lấy avatarText, nếu không có thì tự động cắt 2 chữ cái đầu tiên của guestName
+                const avatarStr = data.avatarText ? data.avatarText : data.guestName.substring(0, 2).toUpperCase();
+                document.getElementById('navbar-avatar-text').innerText = avatarStr;
+                
+                // 3. In ra Lời chào
                 greetingContainer.innerHTML = `
                     <h3 class="text-xl md:text-2xl font-bold text-white mb-2">Xin chào, <span class="text-katana">${data.guestName}</span></h3>
                     <p class="text-gray-300 text-sm italic font-sans max-w-xl mx-auto">"${data.message}"</p>
@@ -125,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="memory-card w-full max-w-[350px] flex-shrink-0 cursor-pointer">
                             <div class="memory-inner">
                                 <div class="memory-front border border-gray-800">
-                                    <img src="${photo.url}" alt="${photo.note}">
+                                    <img src="${photo.url}" alt="d${photo.note}">
                                 </div>
                                 <div class="memory-back">
                                     <p class="font-mono text-katana text-xs mb-3 tracking-widest uppercase">${photo.date}</p>

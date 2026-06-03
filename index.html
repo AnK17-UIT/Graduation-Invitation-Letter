@@ -41,9 +41,17 @@
     <!-- ==================== NAVBAR ==================== -->
     <header class="fixed top-0 left-0 w-full p-4 md:p-6 flex justify-between items-center z-50 bg-darkbg/80 backdrop-blur-md opacity-0 transition-opacity duration-1000 delay-500 border-b border-gray-800/50" id="navbar">
         <div class="flex items-center gap-3">
-            <div class="w-10 h-10 bg-katana rounded-full flex items-center justify-center font-bold text-white shadow-[0_0_15px_#ff1a33]">GA</div>
-            <span class="font-bold tracking-widest text-sm uppercase hidden md:inline">Nguyễn Hoàng Gia An</span>
+            
+            <!-- THÊM ID VÀO ĐÂY -->
+            <div id="navbar-avatar-text" class="w-10 h-10 bg-katana rounded-full flex items-center justify-center font-bold text-white shadow-[0_0_15px_#ff1a33]">
+                GA
+            </div>
+            
+            <span id="navbar-guest-name" class="font-bold tracking-widest text-sm uppercase hidden md:inline">
+                Đang tải...
+            </span>
         </div>
+        <!-- ... phần menu giữ nguyên ... -->
         <nav class="hidden lg:flex gap-8 text-sm text-gray-400 font-medium tracking-wide">
             <a href="#hero-section" class="hover:text-white hover:text-katana transition-colors">Home</a>
             <a href="#gallery" class="hover:text-white hover:text-katana transition-colors">Memories</a>
@@ -103,8 +111,8 @@
         <div class="absolute bottom-10 left-6 md:left-10 flex gap-8 opacity-0 transition-opacity duration-1000 delay-1000" id="bottom-stats">
         </div>
 
-        <!-- Tín hiệu vuốt xuống (Chỉ hiện khi animation xong) -->
-        <a href="#gallery" class="absolute bottom-10 right-6 md:right-10 opacity-0 transition-opacity duration-1000 delay-1000 animate-bounce cursor-pointer z-50" id="scroll-down">
+        <!-- Đổi z-50 thành z-40 ở cuối dòng -->
+        <a href="#gallery" class="absolute bottom-10 right-6 md:right-10 opacity-0 transition-opacity duration-1000 delay-1000 animate-bounce cursor-pointer z-40" id="scroll-down">
             <svg class="w-8 h-8 text-katana" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
         </a>
     </section>
