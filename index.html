@@ -82,13 +82,16 @@
             <!-- ẢNH: Bỏ border, bỏ rounded. Thêm class hero-image-mask và drop-shadow (đổ bóng theo hình người) -->
             <img src="./ZAEN.png" 
                  alt="Gia An" 
-                 class="hero-image-mask drop-shadow-[0_0_30px_rgba(255,26,51,0.6)] w-[320px] md:w-[450px] lg:w-[550px] h-auto object-contain">
+                 class="hero-image-mask drop-shadow-[0_0_30px_rgba(255,26,51,0.6)] w-[1320px] md:w-[1450px] lg:w-[1050px] h-auto object-contain">
             
-            <!-- TEXT: Dùng âm margin (-mt-12) để kéo chữ nhích lên, đè nhẹ vào phần đang mờ của chân -->
+            <!-- TEXT -->
             <div class="-mt-12 md:-mt-16 text-center opacity-0 transition-opacity duration-1000 z-40" id="photo-caption">
-                <h3 class="text-3xl md:text-5xl font-black uppercase tracking-widest text-white text-glow">
-                    Nguyễn Hoàng Gia An
+                
+                <!-- Đã thêm leading-tight để lỡ rớt 2 dòng thì khoảng cách các dòng không bị quá thưa -->
+                <h3 class="text-3xl md:text-5xl font-black uppercase tracking-widest text-white text-glow leading-tight">
+                    Nguyễn Hoàng <span class="whitespace-nowrap">Gia An</span>
                 </h3>
+                
                 <p class="text-katana font-mono tracking-[0.2em] md:tracking-[0.3em] uppercase text-xs md:text-sm mt-3 flex items-center justify-center gap-3">
                     <span class="w-12 h-[1px] bg-katana/70"></span>
                     Bachelor of Computer Science
@@ -193,7 +196,7 @@
         <div class="text-center z-10 reveal max-w-2xl">
             <h2 class="font-brush text-4xl md:text-6xl text-white mb-8">See You There!</h2>
             <p class="text-gray-300 font-sans text-sm md:text-base leading-relaxed mb-10">
-                Hy vọng sẽ được gặp anh/chị/em/bạn tại lễ tốt nghiệp của anh/em/tui nheee!
+                Hy vọng sẽ được gặp anh/chị/em/bạn tại lễ tốt nghiệp của anh/em/tui nheee! <br/>
                 <strong> Contact: Messenger hoặc SĐT: 0916917295 </strong>
             </p>
             <div class="mt-8">
