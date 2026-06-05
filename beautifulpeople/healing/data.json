@@ -1,22 +1,52 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Group chỉ để nào rảnh đi healing",
+    "avatarText": "HL",
+    "message": "Em dọn sẵn hình cho mn hết trơn ròi. Hẹn mọi người ở lễ tốt nghiệp của em ạ.",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/healing/Healing_2.jpg",
+            "date": "Tháng 04, 2026",
+            "note": "Anh Bảo"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
+            "url": "./beautifulpeople/healing/Healing_1.jpg",
+            "date": "Tháng 04, 2026",
+            "note": "Anh Khánh Duy"
         },
                 {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/healing/Healing_7.jpg",
+            "date": "Tháng 12, 2025",
+            "note": "Anh Hào"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_3.jpg",
+            "date": "Tháng 03, 2026",
+            "note": "Chị Nọc"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_6.jpg",
+            "date": "Tháng 02, 2025",
+            "note": "Anh Phong Nguyễn"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_4.jpg",
+            "date": "Tháng 03, 2026",
+            "note": "Anh Híu"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_8.jpg",
+            "date": "Tháng 04, 2025",
+            "note": "Cô Nhi"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_5.jpg",
+            "date": "Tháng 02, 2025",
+            "note": "Cu Vịt Kho"
+        },
+                {
+            "url": "./beautifulpeople/healing/Healing_9.jpg",
+            "date": "Tháng 05, 2026",
+            "note": "Em An"
         }
     ]
 }
