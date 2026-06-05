@@ -1,22 +1,17 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Cao Đăng Khoa",
+    "avatarText": "CDK",
+    "message": "Thank you em zai vì đã đồng hành chung với anh hồi anh năm hai với năm ba nhen, em giúp anh được nhiều thứ phết ròi. Chúc em luôn giàu, luôn giỏi, luôn vui và càng ngày càng thành công hơn nhó!",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/caodangkhoa/CaoDangKhoa_1.jpg",
+            "date": "Tháng 10, 2024",
+            "note": "Hồi Trainee 2024 =)) lúc đó nhìn non choẹt vs đủ đẹp trai nên t lấy hen"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
-        },
-                {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/caodangkhoa/CaoDangKhoa_2.jpg",
+            "date": "Tháng 06, 2025",
+            "note": "Nhìn lại tấm này thấy cũng lẹ ghê, chưa gì hết là 1 năm nữa qua ròi"
         }
     ]
 }
