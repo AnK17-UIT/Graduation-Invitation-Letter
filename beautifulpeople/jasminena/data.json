@@ -1,22 +1,27 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Em Yến Như (Jasmine Na)",
+    "avatarText": "YN",
+    "message": "Heheeee anh An cảm ơn em nhìu vì đã đi chung với anh một đoạn đường khá là dài lun heee, từ lúc anh năm 2, em mới vô trường, giờ người đi thực tập người tốt nghiệp lun ròi. Hy zọng anh em mình thi thoảng vẫn đi chơi với nhau đồ heeee. Cảm ơn em vì đã gánh anh môn OLAP khóc thét :<",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/jasminena/JasmineNa_1.jpg",
+            "date": "Tháng 09, 2024",
+            "note": "Này là hôm 2 đứa thi cuộc thi gì bên OEP á =)))"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
+            "url": "./beautifulpeople/jasminena/JasmineNa_2.jpg",
+            "date": "Tháng 12, 2023",
+            "note": "=))) đợt này em mới vô trường xong đi cái gì của Đòn Kho nè"
         },
                 {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/jasminena/JasmineNa_3.jpg",
+            "date": "Tháng 07, 2025",
+            "note": "Hôm đi chơi xong làm đồ handmade các kiểu .. phải hôm té xe k ta"
+        },
+                {
+            "url": "./beautifulpeople/jasminena/JasmineNa_4.jpg",
+            "date": "Tháng 09, 2024",
+            "note": "Quả seminar gì đó ở bên US xong em rủ anh đi và anh đi thật =)))) Dòm lại thấy chặng đường mình đi cũng dài r em hen"
         }
     ]
 }

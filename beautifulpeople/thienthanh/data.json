@@ -1,22 +1,17 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Em Thiên Thanh",
+    "avatarText": "TT",
+    "message": "Haizz ta bùn bây quá... đợi quài hong có tín hiệu gì của paper.. Mà tạm gác qua, anh An ra trường òi, chúc em mãi giỏi, làm vs anh ra cái paper ngon, sau này nổi tiếng nhớ tên anh An nhen. Cảm ơn em vì tất cả =)))",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/thienthanh/ThienThanh_1.jpg",
+            "date": "Tháng 09, 2024",
+            "note": "K nhớ hôm đó là cuộc thi gì bên OEP á =)))) Tính ra đi chung từ hồi Trainee Program tới giờ =)) xa dữ z tr"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
-        },
-                {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/thienthanh/ThienThanh_2.jpg",
+            "date": "Tháng 04, 2024",
+            "note": "Bộ ảnh chụp ở Dinh Độc Lập với chị Tuyết Minh nè henn =)))"
         }
     ]
 }

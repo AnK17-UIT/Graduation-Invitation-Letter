@@ -1,22 +1,17 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Em Phan Hàn Thái",
+    "avatarText": "PHT",
+    "message": "Heheee lâu ròi k nói chuyện vs em trai, từ lúc em cook VPĐ và all in MTC-TTM. Nay anh An ra trường ròi nhó. Anh mời em dự lễ tốt nghiệp của anh để có tí kỷ niệm nhen hehee =)))",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/phanhanthai/PhanHanThai_1.jpg",
+            "date": "Tháng 03, 2024",
+            "note": "Concept em Thái bụi bặm tóc dài"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
-        },
-                {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/phanhanthai/PhanHanThai_2.jpg",
+            "date": "Tháng 01, 2024",
+            "note": "Tư liệu quý của em Thái và anh sẽ để đây hẹ hẹ"
         }
     ]
 }

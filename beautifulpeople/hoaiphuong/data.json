@@ -1,6 +1,6 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
+    "guestName": "Chị Hòi Phưn",
+    "avatarText": "HP",
     "message": "Em cảm ơnn chị Hoài Phương nhìu lém =)) do chị đã cưu mang cái thân của em từ hồi XTN2023, cho em đậu bằng cách thần kỳ nào đó. Em quý chị lém, chúc chị luôn thành công, luôn giàu và mãi hạnh phúc nhá!!",
     "photos": [
         {
@@ -17,6 +17,11 @@
             "url": "./beautifulpeople/hoaiphuong/HoaiPhuong_3.jpg",
             "date": "Tháng 12, 2025",
             "note": "Đợt này chị tốt nghiệp em ráng xún chụp hình với chị ròi á, chị cũng v á nhen =)))"
+        },
+                {
+            "url": "./beautifulpeople/hoaiphuong/HoaiPhuong_4.jpg",
+            "date": "Tháng 12, 2025",
+            "note": "Mãi hạnh phúc bên chằm iu nhe chị"
         }
     ]
 }

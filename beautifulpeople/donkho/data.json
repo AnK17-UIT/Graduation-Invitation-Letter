@@ -1,22 +1,32 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Anh chị em Đòn Kho",
+    "avatarText": "ĐK",
+    "message": "Ngừi già sắp ra trường xin chân thành cảm ơn các eiu vì đã lun nhớ anh An dù cho anh đã hong còn đi nhiều với mấy đứa như trước. Giờ anh An ra trường tới nơi ròi, mong được chụp với mấy bé một tấm hình thặc là đẹp đẽ nhó =))) iu mấy đứa nhìu, mãi là ngừi của Đòn Kho",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/donkho/DonKho_1.jpg",
+            "date": "Tháng 11, 2024",
+            "note": "=))) mấy đứa offline Trainee đồ nè, những ánh mắt thất thần, nụ cười ngờ nghệch"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
+            "url": "./beautifulpeople/donkho/DonKho_2.jpg",
+            "date": "Tháng 10, 2025",
+            "note": "Trại CS2 năm nào cũng vầy, coi mấy đứa viết cfs đã tay lun... anh viết cũng đã mà nhận về hăm nhiu henn :("
         },
                 {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
+            "url": "./beautifulpeople/donkho/DonKho_3.jpg",
+            "date": "Tháng 03, 2026",
+            "note": "Hôm họp Đòn Kho xong anh An rảnh rảnh cái đi dự lun =))) ròi quánh bài đã hen"
+        },
+                {
+            "url": "./beautifulpeople/donkho/DonKho_4.jpg",
             "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "note": "=)))???"
+        },
+                {
+            "url": "./beautifulpeople/donkho/DonKho_5.jpg",
+            "date": "Tháng 10, 2024",
+            "note": "Tấm này chắc đông đủ á, sót mấy đứa k đi th"
         }
     ]
 }

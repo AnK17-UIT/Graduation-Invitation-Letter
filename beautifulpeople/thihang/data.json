@@ -1,22 +1,32 @@
 {
-    "guestName": "Chị Anh Thư",
-    "avatarText": "ATu",
-    "message": "Cảm ơn Tít Min nhiều vì đã chịu nói chiện dới em ... hic em hong biết may mắn sao mới gặp được chị nữa :< chúc chị lun dui dẻ với sớm lấy chồng giàu bao nuôi em ... Nhớ đi chơi chung nhiều lên nhe để em ráng chụp hình chị nhiều nhiều.",
+    "guestName": "Chị Thị Hằng",
+    "avatarText": "TH",
+    "message": "Heheeee chị luôn là chị đẹp trong mắt em lunn. Gặp nhau từ hồi trại leo núi 2023 xong còn ntin với nhau tới giờ henn =))) hy zọng gặp lại chị hôm em tốt nghiệp ạaaa",
     "photos": [
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_1.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "Em hong nhớ bữa đó làm gì mà đi Metro chung z ta =)))"
+            "url": "./beautifulpeople/thihang/ThiHang_4.jpg",
+            "date": "Tháng 04, 2023",
+            "note": "Lần đầu gặp chị Hằng ở trại leo núi mệch ói luôn =)))"
         },
         {
-            "url": "./beautifulpeople/ahthuw/AnhThu_2.jpg",
-            "date": "Tháng 12, 2024",
-            "note": "TitMin is a Swiftieee"
+            "url": "./beautifulpeople/thihang/ThiHang_1.jpg",
+            "date": "Tháng 02, 2024",
+            "note": "Hồi này chụp hình cho chị xấu ói lun :< xong hôm này về là em có động lực tập chụp cho lên tay nè"
+        },
+        {
+            "url": "./beautifulpeople/thihang/ThiHang_2.jpg",
+            "date": "Tháng 01, 2025",
+            "note": "Hôm gần Tết và mấy chị em đi chụp ở Bảo tàng áo dài, thành quả của việc tự train cho lên tay"
         },
                 {
-            "url": "./beautifulpeople/ahthuw/AnhThu_3.jpg",
-            "date": "Tháng 04, 2026",
-            "note": "Lần đầu bao chỉ ăn buffet do mới lĩnh lương intern"
+            "url": "./beautifulpeople/thihang/ThiHang_3.jpg",
+            "date": "Tháng 04, 2025",
+            "note": "Hôm chị Hằng bảo vệ KLTN xong em chụp cho chị hé hé"
+        },
+                {
+            "url": "./beautifulpeople/thihang/ThiHang_5.jpg",
+            "date": "Tháng 05, 2025",
+            "note": "Xong được chị book chụp ngày chị tốt nghiệp luôn =))) qá đã"
         }
     ]
 }
